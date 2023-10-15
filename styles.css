@@ -1,0 +1,50 @@
+#cssPosition {
+  width: 1000px;
+  height: 1000px;
+}
+
+.first {
+  font-size: 30px;
+  background-color: yellow;
+  height: 80px;
+  left: 0px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: static;
+}
+
+.second {
+  font-size: 28px;
+  background-color: pink;
+  left: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+}
+
+.third {
+  font-size: 26px;
+  background-color: rgb(168, 168, 60);
+  top: 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: sticky;
+}
+
+.fourth {
+  font-size: 24px;
+  background-color: blueviolet;
+  right: 150px;
+  left: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: fixed;
+}
+
+.fifth {
+  font-size: 22px;
+  background-color: rgb(50, 206, 206);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+}
+
+.sixth {
+  font: 22px;
+  background-color: brown;
+}
